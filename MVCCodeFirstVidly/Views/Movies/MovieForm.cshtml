@@ -1,0 +1,15 @@
+﻿@model MVCCodeFirstVidly.ViewModels.MovieFormViewModel
+@{
+    ViewBag.Title = "MovieForm";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Movies</h2>
+@using (Html.BeginForm("new", Movies))
+{
+            <div class="form-group">
+                @Html.LabelFor(m => m.Movie.Name)
+                @Html.TextBoxFor(m => m.Movie.Name, new { @class = "form-control" })
+            </div>
+ }
+

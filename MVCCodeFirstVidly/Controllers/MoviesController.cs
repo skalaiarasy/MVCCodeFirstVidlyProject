@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using System.Data.Entity;
 using MVCCodeFirstVidly.Models;
+using MVCCodeFirstVidly.ViewModels;
 
 namespace MVCCodeFirstVidly.Controllers
 {
@@ -35,7 +36,15 @@ namespace MVCCodeFirstVidly.Controllers
             return View(movie);
         }
 
-        
-        
+        public ActionResult New()
+        {
+            var genres = _context.Genres;
+            var newMovieModel = new MovieFormViewModel
+            {
+                Genres = genres
+            };
+            return View("MovieForm", newMovieModel);
+        }
+
     }
 }
