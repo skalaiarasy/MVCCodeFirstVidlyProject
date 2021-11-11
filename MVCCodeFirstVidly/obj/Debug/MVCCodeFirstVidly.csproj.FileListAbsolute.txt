@@ -108,3 +108,4 @@ C:\Users\Kalaiarasy\source\repos\MVCCodeFirstVidly\MVCCodeFirstVidly\obj\Debug\M
 C:\Users\Kalaiarasy\source\repos\MVCCodeFirstVidly\MVCCodeFirstVidly\obj\Debug\MVCCodeFirstVidly.pdb
 C:\Users\Kalaiarasy\source\repos\MVCCodeFirstVidly\MVCCodeFirstVidly\obj\Debug\MVCCodeFirstVidly.Migrations.InitialModels.resources
 C:\Users\Kalaiarasy\source\repos\MVCCodeFirstVidly\MVCCodeFirstVidly\obj\Debug\MVCCodeFirstVidly.csproj.GenerateResource.cache
+C:\Users\Kalaiarasy\source\repos\MVCCodeFirstVidly\MVCCodeFirstVidly\obj\Debug\MVCCodeFirstVidly.Migrations.RemovedMovieModelGenreRequired.resources
