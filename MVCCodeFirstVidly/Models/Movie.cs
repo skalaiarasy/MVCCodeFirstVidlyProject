@@ -20,7 +20,7 @@ namespace MVCCodeFirstVidly.Models
         [Required]
         [Display(Name="Genre")]
         public byte GenreId { get; set; }
-
+        
         [Required]
         public DateTime DateAdded { get; set; }
 
